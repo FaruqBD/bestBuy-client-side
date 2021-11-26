@@ -1,0 +1,42 @@
+
+.login-form {
+    background: #093028;  
+    background: -webkit-linear-gradient(to right, #57c70c, #12493e);  
+    background: linear-gradient(to right, #7cd31a, #093028);
+    color:rgb(8, 8, 8);    
+    width: 50%;
+
+}
+.login-container{
+    margin: auto;
+    padding: 30px;
+}
+.text-left{
+    padding-bottom: 10px;
+    text-align: left!important;
+}
+
+/* responsive */
+@media only screen and (max-width:688px) {
+    .add-service form input, textarea{
+        width: 100%;
+    }
+    .login-form{
+        width: 100%;
+        padding: 20px;
+    
+    }
+    .login-container{
+        height:auto;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .add-service form input, textarea{
+        width: 80%;
+    }
+    .login-form{
+        width: 100%;
+        
+    }
+}

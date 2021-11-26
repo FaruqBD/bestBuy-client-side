@@ -1,0 +1,27 @@
+.add-service form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-service form input, textarea{
+    width: 40%;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.text-left{
+    padding-bottom: 10px;
+    text-align: left!important;
+}
+
+/* responsive */
+@media only screen and (max-width:688px) {
+    .add-service form input, textarea{
+        width: 95%;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .add-service form input, textarea{
+        width: 80%;
+    }
+}

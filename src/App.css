@@ -1,0 +1,114 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.nav-link{
+  color:#fff;
+}
+.navbar-brand a{
+  color:#fff;
+  text-decoration: none;
+}
+
+.user-image img{
+  border-radius: 50%;
+  height: 40px;
+  margin-left:10px;
+}
+.footer-copyright a, li a{
+  color:rgb(231, 226, 226);
+  text-decoration: none;
+}
+.page-footer{
+  background-color:#304F47;
+  color:#fff;
+}
+
+.btn{
+  transition: transform 1s, filter 3s ease-in-out;
+}
+.btn:hover{
+  transform: scale(1.2);
+}
+
+.team-member{
+  background-color: #E2F1F1;
+}
+#contact{
+  background-image: url('https://i.ibb.co/wYPj6Bm/contact.pngs');
+  background-size: 100%;
+}
+#contact p{
+font-size: 2em;
+color: rgb(110, 108, 108);
+font-weight: bolder;
+}
+.navbar{
+  background-color: #304F47;
+}
+.section-head {
+  text-align: center;
+  max-width: 516px;
+  margin: 0 auto;
+}
+.section-head h2, .section-head h5 {
+  font-family: "Quicksand",sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+.section-head h5 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #ff7f47;
+  line-height: 1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* responsive */
+@media only screen and (max-width:688px) {
+  #contact{
+    background-image: url('https://i.ibb.co/wYPj6Bm/contact.pngs');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+  }
+  #contact p{
+  font-size: 1em;
+  color: rgb(110, 108, 108);
+  }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+  .service-container{
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
