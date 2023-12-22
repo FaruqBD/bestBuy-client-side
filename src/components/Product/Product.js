@@ -5,6 +5,7 @@ import './Product.css'
 const Product = ({product}) => {
     const { _id, name, price, shortDescription, img, status } = product;
     
+    
     return (
         <div className="product pb-3 shadow bg-white rounded">
             <div className="image-container">
